@@ -1,0 +1,141 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+	
+	<meta http-equiv="refresh" content="600">
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
+	<title>Рабочий стол</title>
+</head>
+<body style="background-color:rgb(90, 211, 199);">
+
+    <script>
+function reloadPage() {
+	location.reload(true);
+}
+
+function searchj(event) {
+	event.preventDefault();
+	let findBy = document.getElementById("searchFormJira").elements["searchItem"].value;
+	let url1 = "https://jira.gloria-jeans.ru/issues/?jql=text ~ \"" + findBy + "\"";
+	window.location.href = url1;
+}
+
+function searchc(event) {
+	event.preventDefault();
+	let findBy = document.getElementById("searchFormConf").elements["searchItem"].value;
+	let url1 = "https://conf.366.ru/pages/viewpage.action?pageId=21336648/dosearchsite.action?queryString=" + findBy;
+	window.location.href = url1;
+}
+    </script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-darkt ml-2">
+		<img src="http://www.findtuner.com/images/clients/findtuner/home/SAP-Hybris-white-Logo.png" alt class="img-responsive rounded float-left" height=auto width="200" onclick="reloadPage();">
+		
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+		
+	
+	</nav>
+	
+	<p style="background-color:rgb(3, 3, 3);">
+	<div class="container" align="center">
+		<div class="row">
+			<div class="col-sm">
+				<div class="btn-group dropdown">
+  <button type="button" class="btn btn-info">Проекты Jira</button>
+  <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown">
+ <span class="caret"></span>
+ <span class="sr-only">Toggle Dropdown</span>
+  </button>
+  <ul class="dropdown-menu" role="menu">
+ <li><a href = "https://jira.366.ru/secure/RapidBoard.jspa?rapidView=75&projectKey=WGZ ">WGZ</a></li>
+ <li><a href = "https://jira.366.ru/secure/RapidBoard.jspa?rapidView=163&projectKey=W36">W36</a></li>
+ <li><a href = "https://jira.366.ru/secure/RapidBoard.jspa?rapidView=147&projectKey=ESEO">ESEO</a></li>
+ <li><a href = "https://jira.366.ru/secure/RapidBoard.jspa?rapidView=120&projectKey=HYB">HYB</a></li>
+ <li><a href = "https://conf.366.ru/pages/viewpage.action?pageId=21336648">EL</a></li>
+  </ul>
+</div>
+
+				
+			</div>
+			
+			<div class="col-sm">
+				<div class="card text-white bg-dark mb-3 text-center">
+					<div class="card-header" id="prod">PROD (P1)</div>
+					
+					<div class="card-body">
+						<p class="card-text">Внешний доступ</p>
+                        <a href="https://www.gorzdrav.org" class="btn btn-primary" target="_blank">GZ</a>
+                        <a href="https://366.ru" class="btn btn-primary" target="_blank">366</a>
+                        <a href="https://apteka366.ru" class="btn btn-primary" target="_blank">apteka366</a>
+						<a href="https://prd-hybris-back.id-soft.network/backoffice" class="btn btn-primary" target="_blank">BO</a>
+						<hr>
+						
+						
+                    </div>
+				</div>
+			</div>
+			
+			
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-sm">
+				<div class="card text-white bg-dark mb-3 text-center">
+					<div class="card-header">Stage1</div>
+					
+					<div class="card-body">
+						<p class="card-text">Прямой доступ</p>
+                        <a href="https://hybris-stage.366.ru" class="btn btn-primary" target="_blank">366</a>
+						<a href="https://hybris-stage.gorzdrav.org/" class="btn btn-primary" target="_blank">GZ</a>
+                        <a href="https://hybris-stage.apteka366.ru" class="btn btn-primary" target="_blank">apteka366</a>
+						<a href="https://stg-hybris-app-01.id-soft.network:9002/backoffice/" class="btn btn-primary" target="_blank">BO</a>
+						<hr>
+						
+						
+                    </div>
+				</div>
+			</div>
+			
+			<div class="col-sm">
+				<div class="card text-white bg-dark mb-3 text-center">
+					<div class="card-header">Stage2</div>
+					
+					<div class="card-body">
+						<p class="card-text">Прямой доступ</p>
+                        <a href="https://hybris-stage2.366.ru/" class="btn btn-primary" target="_blank">366</a>
+						<a href="https://hybris-stage2.gorzdrav.org" class="btn btn-primary" target="_blank">GZ</a>
+                        <a href="https://hybris-stage2.apteka366.ru" class="btn btn-primary" target="_blank">apteka366</a>
+						<a href="https://10.250.209.162:9002/backoffice" class="btn btn-primary" target="_blank">BO</a>
+						<hr>
+						
+						
+                    </div>
+				</div>
+			</div>
+			
+			
+		</div>
+		
+		<div class="row">
+			<div class="col-sm">
+				
+			</div>
+		</div>
+	</div>
+	</p>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+
+</body>
+</html>
