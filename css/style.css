@@ -1,13 +1,25 @@
 section.sex {
-    margin-top: 150px;
+    margin-top: 140px;
 }
 nav img{
 	margin-right: 25px;
 }
 
 ul link {
-	margin-right: 40px;
+	margin-right: 25px;
 }
 .gray-log-link {
 	margin-left: 15px;
+}
+.my-btn{
+	background-color: #0e4784;
+	border-color: #0e4784;
+}
+.my-btn:hover{
+	background-color: #215d9d;
+	background-color: #215d9d;
+}
+.me-btn{
+	background-color: #ffffff00;
+	border-color: #0e4784;
 }
