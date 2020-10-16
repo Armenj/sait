@@ -6,10 +6,16 @@ nav img{
 }
 
 ul link {
-	margin-right: 25px;
+	margin-right: 40px;
 }
 .gray-log-link {
 	margin-left: 15px;
+}
+.bitbucket-log-link{
+	margin-left: -288px;
+}
+.jenkins-log-link{
+	margin-left: -515px;
 }
 .my-btn{
 	background-color: #0e4784;
@@ -22,4 +28,8 @@ ul link {
 .me-btn{
 	background-color: #ffffff00;
 	border-color: #0e4784;
+}
+.mi-btn{
+	background-color: #818102;
+	border-color: #ffffff;
 }
