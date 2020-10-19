@@ -12,16 +12,19 @@ ul link {
 	margin-left: 15px;
 }
 .bitbucket-log-link{
-	margin-left: -159px;
+	margin-left: -100px;
 }
 .jenkins-log-link{
-	margin-left: -255px;	
+	margin-left: -130px;	
 }
 .intra-log-link{
-	margin-left: -367px;
+	margin-left: -178px;
 }
 .zabbix-log-link{
-	margin-left: -455px;
+	margin-left: -200px;
+}
+.qase-log-link{
+	margin-left: -259px;
 }
 .my-btn{
 	background-color: #0e4784;
